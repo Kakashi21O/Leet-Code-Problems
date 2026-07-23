@@ -6,7 +6,6 @@ class Solution(object):
         """
         num = x
         temp = 0
-        p = 0
         while num>0:
             temp = (temp*10) + (num%10)
             num = num//10
